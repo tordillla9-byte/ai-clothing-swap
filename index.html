@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
 <head>
-    <title>Hello World</title>
+    <title>تغییر لباس با هوش مصنوعی</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>تغییر لباس با هوش مصنوعی</h1>
+    <input type="file" id="clothingImage" accept="image/*">
+    <label for="clothingImage">عکس لباس مورد نظر</label><br><br>
+    <input type="file" id="personImage" accept="image/*">
+    <label for="personImage">عکس خودتان</label><br><br>
+    <button onclick="processImages()">اجرا</button><br><br>
+    <img id="resultImage" src="#" alt="عکس نهایی" style="max-width: 500px;">
+    <script src="script.js"></script>
 </body>
 </html>
