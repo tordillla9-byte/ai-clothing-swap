@@ -1,0 +1,45 @@
+body {
+    direction: rtl; /* نمایش از راست به چپ */
+    font-family: Arial, sans-serif; /* فونت پیش‌فرض */
+    margin: 0; /* حذف حاشیه پیش‌فرض */
+    padding: 20px; /* اضافه کردن حاشیه داخلی */
+}
+
+h1 {
+    text-align: center; /* تراز عنوان در وسط */
+    margin-bottom: 20px; /* فاصله پایین عنوان */
+}
+
+input[type="file"] {
+    display: block; /* نمایش به صورت بلاک (در یک خط جداگانه) */
+    margin-bottom: 10px; /* فاصله پایین */
+}
+
+label {
+    display: block; /* نمایش به صورت بلاک */
+    margin-bottom: 5px; /* فاصله پایین */
+}
+
+button {
+    background-color: #4CAF50; /* رنگ پس‌زمینه */
+    color: white; /* رنگ متن */
+    padding: 10px 20px; /* حاشیه داخلی */
+    border: none; /* حذف حاشیه */
+    cursor: pointer; /* تغییر شکل نشانگر موس */
+    margin-top: 10px; /* فاصله بالا */
+    margin-right: auto; /* انتقال دکمه به سمت راست */
+    margin-left: 0; /* حذف حاشیه چپ */
+    display: block; /* برای اعمال margin-right: auto */
+}
+
+button:hover {
+    background-color: #3e8e41; /* رنگ پس‌زمینه در حالت hover */
+}
+
+#resultImage {
+    max-width: 500px; /* حداکثر عرض تصویر */
+    margin-top: 20px; /* فاصله بالا */
+    display: block; /* نمایش به صورت بلاک */
+    margin-left: auto; /* تراز در وسط */
+    margin-right: auto; /* تراز در وسط */
+}
